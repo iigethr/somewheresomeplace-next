@@ -88,7 +88,7 @@ figure {
 
 img,
 svg {
-  @include appear-animation(0.50s);
+  @include appear-animation(1s);
   border: 0;
   display: block;
   float: left;
@@ -97,6 +97,10 @@ svg {
   max-width: 100%;
   padding: 0;
   width: auto;
+}
+
+.globe {
+  @include appear-animation(2s);
 }
 
 // Media Query 240px

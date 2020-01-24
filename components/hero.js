@@ -13,7 +13,7 @@ class Hero extends React.Component {
             <p className="mono font-xs lighter text-center gray-500-cl">{description}</p>
           </div>
           <div className="hero-row">
-            <img src={require("../assets/images/globe.gif")} alt="SomewhereSomeplace.earth" className="center-h"/>
+            <img src={require("../assets/images/globe.gif")} alt="SomewhereSomeplace.earth" className="globe center-h" title="SomewhereSomeplace.earth - A Journey... no destination."/>
           </div>
         </div>
       </div>
